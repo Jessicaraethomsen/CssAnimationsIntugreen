@@ -114,6 +114,39 @@ section{
 }
 
 
+/*  BOY AND THE PIN */
+.boy{
+
+	height: 500px;
+	width: 850px;
+	background: transparent;
+}
+
+
+.boybg{
+    position: absolute;
+   	z-index: 1;
+
+}
+
+.boypin{
+    position: absolute;
+    z-index: 2;
+    animation:jump 2s ease infinite backwards;
+}
+
+
+.boyclouds{
+    position: absolute;
+    z-index: -1;
+    animation: float 6s ease-out infinite alternate;
+
+}
+
+
+
+
+/*TEST CSS ANIMATION*/
 .thefigure{
 
 	height: 500px;
@@ -121,7 +154,6 @@ section{
 	width: 500px;
 
 }
-
 
 
 
